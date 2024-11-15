@@ -11,7 +11,7 @@ public class CalculoDeMedia {
 		double n2 = m.nextDouble();
 		double media; 
 		media = (n1 + n2)/2;
-		System.out.println("A média vale" + media);
+		System.out.println("A média vale " + media);
 
 	}
 

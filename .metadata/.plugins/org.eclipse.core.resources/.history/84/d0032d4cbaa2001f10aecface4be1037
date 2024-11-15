@@ -1,0 +1,20 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class SuspeitoOuNao {
+
+	public static void main(String[] args) {
+		Scanner m = new Scanner(System.in)
+		System.out.println("Para todas as perguntas responda 1-Sim  e 2-Não" );
+		Syestem.out.println("==============================================================")
+		System.out.println("Telefonou Para a vítima?: ");
+		int p1 = m.nextInt();
+		System.out.println("Esteve no local do crime?: ");
+		int p = m.nextInt();
+		
+	
+
+	}
+
+}

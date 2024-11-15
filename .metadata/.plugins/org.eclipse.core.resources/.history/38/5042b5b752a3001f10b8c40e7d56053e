@@ -1,0 +1,41 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class SuspeitoOuNao {
+
+	public static void main(String[] args) {
+		Scanner m = new Scanner(System.in);
+		System.out.println("Para todas as perguntas responda 1-Sim  e 0-Não" );
+		System.out.println("==============================================================");
+		System.out.println("Telefonou Para a vítima?: ");
+		int p1 = m.nextInt();
+		System.out.println("Esteve no local do crime?: ");
+		p2 = m.nextInt();
+		System.out.println("Mora perto da vítima?: ");
+		p3 = m.nextInt();
+		System.out.println("Devia para a vítima?: ");
+		int p4 = m.nextInt();
+		System.out.println("Já trabalhou com a vítima?: ");
+		int p5 = m.nextInt();
+		int soma = p1+p2+p3+p4+p5;
+		if (soma <= 2)
+			System.out.println("Suspeito");
+		else if (soma ==3 || soma == 4)
+				System.out.println("Cúmplice");
+		else if (soma >=5)
+			System.out.println("Assassino");
+		else 
+			System.out.println("Inocente");
+		
+		switch (soma) {
+		case 1 ()
+		}
+		
+		
+		
+	
+
+	}
+
+}
